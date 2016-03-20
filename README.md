@@ -7,7 +7,7 @@ CloudSend was created for companies such as agencies that must constantly send f
 
 - FREE and Open Source [MIT License](https://opensource.org/licenses/MIT)
 - Completely template-based for easy design modifications
-- **Multilanguage:** English/German/Dutch*/French*/Portuguese*/Spanish* already added ( easily adding more languages )
+- **Multilanguage:** English/German Version 1.4 ( Dutch/French/Portuguese/Spanish Version 1.3 ) already added ( easily adding more languages )
 - Created with HMVC PHP ( CodeIgniter ) and the amazing Twitter Bootstrap – easy to modify and to understand
 - Full Source Code
 - SMTP / SENDMAIL / PHP MAIL() Support
@@ -15,7 +15,34 @@ CloudSend was created for companies such as agencies that must constantly send f
 - Apache .htaccess Support for nice URLs
 - Easy to use Step-By-Step installer
 
-** up to Version 1.3 ( missing Version 1.4 Strings )
+
+### Installation
+
+- Clone the repo
+- Upload all files to your webserver
+- Point your browser to the upload, e.g. http://www.myinstallation.com/
+- The installer starts automatically
+- Follow the installer and enter the information requested
+- Installation Done!
+
+If you have chosen to use nice URL's, your webserver has to support .htaccess files like e.g. Apache with enabled mod_rewrite.
+Create a .htaccess file with a text editor like Notepad++ (WIN) or TextWrangler (MAC) in the root path of your installation with the following content:
+
+```TXT
+RewriteEngine On
+# If you have installed in a subfolder like mydomain.com/subfolder
+# then change RewriteBase / to RewriteBase /subfolder
+RewriteBase /
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php/$1 [NC,L,QSA]		
+```
+
+For security reasons, it's the best idea to create a .htaccess file (if your webserver supports) with a text editor like Notepad++ (WIN) or TextWrangler (MAC) inside the "data" directory with the following content:
+
+```TXT
+deny from all
+``
 
 ### Created by
 CloudSend was created by [cloudworxx.us](http://www.cloudworxx.us). We do not provide Support at the moment. Later CloudSend will get it's own Website, Forum & more. Stay tuned.

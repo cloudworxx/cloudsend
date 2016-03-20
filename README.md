@@ -42,7 +42,7 @@ For security reasons, it's the best idea to create a .htaccess file (if your web
 
 ```TXT
 deny from all
-``
+```
 
 ### Created by
 CloudSend was created by [cloudworxx.us](http://www.cloudworxx.us). We do not provide Support at the moment. Later CloudSend will get it's own Website, Forum & more. Stay tuned.

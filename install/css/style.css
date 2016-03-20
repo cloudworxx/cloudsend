@@ -1,0 +1,103 @@
+/* RESET */
+/*********************************************************************/
+
+html, body { width: 100%; min-height: 100%; margin: 0; padding: 0; text-align: left; background-color: #999999; font-family: 'Ubuntu', sans-serif; font-size: 12px; font-weight: 400; color: #515151; line-height: normal; }
+textarea { overflow: auto; }
+img { border:none; }
+a { outline: none; }
+* { padding: 0; margin: 0; }
+table { border-collapse: collapse; border-spacing: 0; border: none; width: 100%; }
+.clear { height: 0; width: 0; clear: both; display: block; visibility: hidden; margin: 0; padding: 0; overflow: hidden; font-size: 0; line-height: 0; }
+h1, h2, h3, h4, h5, h6 { font-family: 'Ubuntu', sans-serif; font-size: 15px; line-height: normal; color: #333333; font-weight: 500; padding: 0 0 5px 0; }
+p { padding: 0; }
+a:link, a:visited { color: #999; text-decoration: none; }
+a:hover, a:active { color: #FFF; text-decoration: none; }
+strong { font-weight: 700 }
+hr { margin-top: 10px; margin-bottom: 20px; border: 0px; background-color: #DDD; height: 1px; }
+
+/* INSTALL */
+/*********************************************************************/
+
+#install { width: 750px; padding-top: 0px; margin: 0 auto 0 auto; }
+#install .inner { width: 740px; padding: 10px 20px 0 20px; background: #FFF; overflow: hidden; border-top: 8px solid #3B6694 }
+#install #steps { padding-bottom: 35px; }
+#install .inner h2 { padding: 10px 0 18px 0; line-height: 16px; font-size: 16px; font-weight: 500; text-transform: uppercase; color: #3B6694; }
+#install .inner h2.title { font-size: 20px; padding-top: 15px; }
+#install .inner .box { padding: 8px 8px 0 8px; margin-bottom: 10px; background: #FBFBFB; border: 1px dotted #CCC; }
+#install .inner .box p { padding: 0 0 8px; }
+#install .inner .box ul { list-style-type: square; padding: 0 0 8px 20px; }
+#install .inner .box.error { background: #F7CBCA; }
+#install .inner .box.success { background: #E0F3DF; }
+#install .inner .field { padding-bottom: 8px; overflow: hidden; }
+#install .inner .field label { width: 140px; display: inline-block; line-height: 24px; float: left; }
+#install .inner .tab.permissions label { width: 300px; }
+#install .inner .field span { display: inline-block; line-height: 24px; float: left; }
+#install .inner .field input, #install .inner .field select { width: 200px; height: 14px; padding: 4px 10px; margin-right:20px; border: 1px solid #CCC; font-family: Tahoma, sans-serif; font-size: 11px; color: #515151; float: left; }
+#install .inner .field select { width: 222px; height: 26px; }
+#install .inner .btn { height: 20px; padding: 5px 10px 0 10px; margin: 10px 0 20px 0; display: inline-block; color: #FFFFFF; border: 1px solid #999; background: #999; text-align: center; }
+#install .inner :hover.btn { background: #3B6694; }
+#install .inner img { margin-left: -5px; }
+#install .inner ul.stepoverview { list-style-type: none; padding-top: 19px; }
+#install .inner .field p { float: left; margin-top: 4px; width: 100px; }
+.fl { float: left }
+.fr { float: right }
+#install .inner button.btn { width: 740px; height: 50px; font-size: 19px; }
+#htaccess { font-family: Courier }
+
+/* TABS */
+/*********************************************************************/
+
+#tabs {
+    min-height: 280px;
+}
+
+/* UI Widget */
+/*********************************************************************/
+
+.ui-widget {
+    font-family: 'Ubuntu',Arial,sans-serif;
+    font-size: 1.1em;
+}
+
+.ui-widget-content {
+    border: none;
+}
+
+.ui-widget-header {
+    border: none;
+    background: none;
+}
+
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active,
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+    border: none;
+    background: none;
+}
+
+.ui-tabs .ui-tabs-panel {
+    padding-left: 0px;
+}
+
+/* Alert */
+/*********************************************************************/
+
+.alert {
+    background-color: #FCF8E3;
+    border: 1px solid #FBEED5;
+    border-radius: 4px 4px 4px 4px;
+    margin-bottom: 20px;
+    padding: 8px 35px 8px 14px;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+}
+
+.alert-error {
+    background-color: #F2DEDE;
+    border-color: #EED3D7;
+    color: #B94A48;
+}
+
+.alert-success {
+  color: #468847;
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+}

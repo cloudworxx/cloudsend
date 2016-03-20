@@ -1,0 +1,114 @@
+/**
+ * CloudSend
+ *
+ * CloudSend was created for companies such as agencies that must constantly send files to the same customers or receive files from the same customers.
+ *
+ * @package    CloudSend
+ * @author     cloudworxx.us
+ * @copyright  Copyright (c) 2013 cloudworxx.us - all rights reserved
+ * @license    MIT License
+ * @link       http://www.cloudworxx.us/
+ * @since      Version 1.0
+ * @filesource
+ *
+ *
+ *
+ * The MIT License (MIT)
+ * Copyright (c) 2013 cloudworxx.us
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated
+ * documentation files (the "Software"), to deal in the Software without restriction, including without limitation
+ * the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and
+ * to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in all copies or substantial
+ * portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED
+ * TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
+ * THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF
+ * CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+ * DEALINGS IN THE SOFTWARE.
+ */
+
+ /**
+  * Standard Definitions
+  */
+ body {
+     font-family: 'OpenSansRegular';
+     font-weight: normal;
+     color: #333333;
+ }
+ 
+ strong {
+     font-family: 'OpenSansBold';
+     font-weight: normal;
+ }
+
+ /**
+  * Login Box
+  */
+  
+ #login {
+     background-color: #395D8D;
+     color: #FFFFFF;
+     width: 300px;
+     position: absolute;
+     bottom: 0;
+     right: 12%;
+     padding: 30px 15px 50px 15px;
+ }
+ 
+ #login .header h3 {
+     font-size: 38px;
+     letter-spacing: -1px;
+     font-weight: bold;
+     padding-bottom: 20px;
+     line-height: 1.0em;
+ }
+ 
+ #login .header h3 small {
+     display: block;
+     font-size: 28px;
+     font-weight: normal;
+ }
+ 
+ #login input[type=password] {
+     border: none;
+     width: 290px;
+     height: 30px;
+     padding: 5px;
+     font-size: 30px;
+ }
+ 
+ #login button {
+     width: 150px;
+     height: 30px;
+     margin-top: 30px;
+     background: none;
+     border: 1px solid #FFFFFF;
+     color: #FFFFFF;
+     font-size: 18px;
+     padding-bottom: 5px;
+ }
+ 
+ #login button:hover {
+     border: 1px solid #999999;
+ }
+ 
+ #login .alert {
+     padding-bottom:20px;
+ }
+ 
+/**
+ * Error not found!
+ */
+ 
+ #errornotfound {
+     width: 550px;
+     margin: 0 auto;
+     background-color: #395D8D;
+     color: #FFFFFF;
+     padding: 10px 20px 20px;
+     margin-top: 130px;
+ } 

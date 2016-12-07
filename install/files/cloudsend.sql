@@ -93,26 +93,27 @@ CREATE TABLE IF NOT EXISTS `{inst_db_prefix}file2user` (
 -- Table structure for table `cloud_files`
 --
 
-CREATE TABLE IF NOT EXISTS `{inst_db_prefix}files` (
+CREATE TABLE IF NOT EXISTS `{inst_db_prefix}_files` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `fileUniqueID` varchar(30) NOT NULL,
   `fileName` varchar(255) NOT NULL,
   `fileNewName` varchar(40) NOT NULL,
   `fileDescription` mediumtext,
   `fileTags` varchar(255) NOT NULL,
-  `fileMD5` VARCHAR( 32 ) DEFAULT NULL,
+  `fileMD5` varchar(32) DEFAULT NULL,
   `fileType` varchar(150) NOT NULL,
   `fileSize` int(11) NOT NULL,
   `fileUploadBy` varchar(30) NOT NULL,
-  `uploadRequest` VARCHAR( 40 ) DEFAULT NULL,
+  `uploadRequest` varchar(40) DEFAULT NULL,
   `fileByCustomer` enum('0','1') NOT NULL DEFAULT '0',
   `fileTime` int(11) NOT NULL,
   `fileCounter` int(11) NOT NULL,
   `filePublic` enum('0','1') NOT NULL DEFAULT '0',
   `fileImportID` varchar(30) NOT NULL,
-  `folderUniqueID` varchar( 30 ) DEFAULT NULL
+  `folderUniqueID` varchar(30) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM  DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
 
 --
 -- Dumping data for table `cloud_files`

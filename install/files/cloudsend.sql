@@ -93,7 +93,7 @@ CREATE TABLE IF NOT EXISTS `{inst_db_prefix}file2user` (
 -- Table structure for table `cloud_files`
 --
 
-CREATE TABLE IF NOT EXISTS `{inst_db_prefix}_files` (
+CREATE TABLE IF NOT EXISTS `{inst_db_prefix}files` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `fileUniqueID` varchar(30) NOT NULL,
   `fileName` varchar(255) NOT NULL,
